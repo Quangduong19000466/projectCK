@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart | IVY moda</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/cart.css">
-    <link rel="stylesheet" href="/css/category.css">
+    <title>Trẻ Em | IVY moda</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/category.css" rel="stylesheet">
+</head>
 
 <body>
-    <header style="z-index: 1;">
+    <header>
         <div class="logo">
-            <img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png">
+            <a href="index.html">
+                <img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png" alt="">
+            </a>
         </div>
         <div class="menu">
-            <li><a href="" class="a1">NỮ</a>
+            <li><a href="category.html" class="a1">NỮ</a>
                 <ul class="sub-menu">
-                    <li><a href="category.html">Hàng mới về</a></li>
+                    <li><a href="">Hàng mới về</a></li>
                     <li><a href="">Colection</a></li>
                     <li>Áo
                         <ul>
@@ -74,7 +75,7 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="category_baby.html" class="a3">TRẺ EM</a>
+            <li><a href="#" class="a3">TRẺ EM</a>
                 <ul class="baby-menu">
                     <li><a href="">COTTON KHÁNG KHUẨN</a></li>
                     <li>BÉ GÁI
@@ -147,108 +148,138 @@
     </header>
 
 
-
-    <section class="cart">
+    <section class="category" style="margin-top: 100px;">
         <div class="container">
-            <div class="cart-top-wrap">
-                <div class="cart-top">
-                    <div class="cart-top-cart cart-top-item"><ion-icon name="cart-outline" class=""></ion-icon></div>
-                    <div class="cart-top-address cart-top-item"><ion-icon name="map-outline" class=""></ion-icon></div>
-                    <div class="cart-top-payment cart-top-item"><ion-icon name="cash-outline" class=""></ion-icon></div>
-                </div>
+            <div class="category-top row">
+                <p>Trang chủ</p> <span>&rarr;</span>
+                <p>Trẻ Em</p> <span></span>
+
             </div>
         </div>
         <div class="container">
-            <div class="cart-content row">
-                <div class="cart-content-left">
-                    <table>
-                        <tr style="">
-                            <th>Sản Phẩm</th>
-                            <th>Tên sản phẩm</th>
-                            <th>Màu</th>
-                            <th>Size</th>
-                            <th>SL</th>
-                            <th>Thành tiền</th>
-                            <th>Xoá</th>
-                        </tr>
-                        <tr>
-                            <td><img
-                                    src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/05/12/140dd4bbdba759c36538b439fe2c7922.jpg">
-                            </td>
-                            <td>
-                                <p style="font-size: 15px;">Sơ mi họa tiết ren</p>
-                            </td>
-                            <td>
-                                <img src="https://pubcdn.ivymoda.com/ivy2/images/color/050.png"
-                                    style="border-radius: 50%;">
-                            </td>
-                            <td>
-                                <b>L</b>
-                            </td>
-                            <td>
-                                <input type="number" value="1" min="1">
-                            </td>
-                            <td>
-                                <p>1.090.000đ</p>
-                            </td>
-                            <td>
-                                <span>X</span>
-                            </td>
-                        </tr>
+            <div class="row">
+                <div class="category-left row">
+                    <ul class="ul1">
+                        <li class="category-left-li"><a href="category.html">Nữ</a>
+                            <ul>
+                                <li><a href="">Hàng nữ mới về</a></li>
+                                <li><a href="">Jean for joy</a></li>
+                                <li><a href="">Quần jean nữ</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li"><a href="category_nam.html">Nam</a>
+                            <ul>
+                                <li><a href="">Hàng Nam mới về</a></li>
+                                <li><a href="">Jean for joy</a></li>
+                                <li><a href="">Quần jean nữ</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li"><a href="#">Trẻ em</a>
 
-                    </table>
+                            <ul>
+                                <li><a href="">Hàng trẻ em mới về</a></li>
+                                <li><a href="">Jean for joy</a></li>
+                                <li><a href="">Quần jean nữ</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li"><a href="">Bộ sưu tập</a>
 
+                            <ul>
+                                <li><a href="">Hàng nữ mới về</a></li>
+                                <li><a href="">Jean for joy</a></li>
+                                <li><a href="">Quần jean nữ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-                <div class="cart-content-right">
-                    <div class="cart-content-right-l">
-                        <table>
-                            <tr>
-                                <th colspan="2">Tổng tiền giỏ hàng</th>
-                            </tr>
-                            <tr>
-                                <td>Tổng sản phẩm</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Tổng tiền hàng</p>
-                                </td>
-                                <td>
-                                    <p>
-                                    <p>1.090.000đ</p>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Tạm tính</td>
-                                <td>
-                                    <p style="color: black; font-weight: bold;">1.090.000đ</p>
-                                </td>
-                            </tr>
-                        </table>
+                <div class="category-right row">
 
-                        <div class="cart-content-right-text">
-                            <p>Đơn hàng của bạn được Miễn phí ship</p>
-                        </div>
-                        <div class="cart-content-right-button">
-                            <a href="index.html"><button>TIẾP TỤC MUA SẮM</button></a>
-                            <a href="delivery.html"><button>THANH TOÁN</button></a>
+                    <div class="category-right-top-item">
+                        <p>HÀNG TRẺ EM MỚI VỀ</p>
+                    </div>
+                    <div class="category-right-top-item">
+                        <button><span>Bộ lọc</span><ion-icon name="caret-down-outline"></ion-icon></button>
+                    </div>
+                    <div class="category-right-top-item">
+                        <select>
 
+                            <option value="">Sắp xếp</option>
+                            <option value="">Giá cả cao đến thấp</option>
+                            <option value="">Giá cả thấp đến cao</option>
+                        </select>
+                    </div>
+                    <div class="category-right-top-content row">
+                        <div class="category-right-content-item">
+                            <a href="product.html"><img
+                                    src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/3ff15ae5b18fd9fb31910a56f5eaf8b0.jpg"
+                                    alt=""></a>
+                            <h1>Quần Sooc Party Time</h1>
+                            <p>349.000đ</p>
                         </div>
-                        <div class="cart-content-right-dangnhap">
-                            <p>Tài khoản IVY</p>
-                            <p>Hãy <a href=""><b>Đăng Nhập</b></a> tài khoản của bạn để được tích điểm</p>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/c5d67f6a621cc0ae909a277e0313b4a0.jpg"
+                                alt="">
+                            <h1>Quần Lửng Bé Gái</h1>
+                            <p>199.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/3136eb7bbe0fae233d402bb989b0b24f.jpg"
+                                alt="">
+                            <h1>Quần Sooc Cạp Chun</h1>
+                            <p>299.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/28/ccf7c8143705275782b2f251948adcec.jpg   "
+                                alt="">
+                            <h1>Quần Lửng Bé Gái</h1>
+                            <p>199.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/15d2be76986a12286858b2f50200ab30.jpg"
+                                alt="">
+                            <h1>Áo Thun Music Play</h1>
+                            <p>299.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/d43c9599246386c816fbb66bc0ce0f1b.jpg"
+                                alt="">
+                            <h1>Áo Thun Music Play</h1>
+                            <p>299.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/95a3f81ee45bc89ea23cf15d333ecf4e.jpg"
+                                alt="">
+                            <h1>Đầm Xòe Đuôi Cá My Kids</h1>
+                            <p>499.000đ</p>
+                        </div>
+                        <div class="category-right-content-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/04/26/8fba789bdbcf693ce96cffcd4cfbc937.jpg"
+                                alt="">
+                            <h1>Đầm Xòe Đuôi Cá My Kids</h1>
+                            <p>599.000đ</p>
+                        </div>
+
+                    </div>
+                    <div class="category-right-bottom row">
+                        <div class="category-right-bottom-item">
+                            <p>Hiển thị 2<span>|</span>4 sản phẩm</p>
+                        </div>
+                        <div class="category-right-bottom-item">
+                            <p><span>&#171;</span> 1 2 3 4 5 <span>&#187;</span> Trang cuối</p>
                         </div>
 
                     </div>
                 </div>
+
             </div>
         </div>
+
     </section>
 
 
 
-    <section class="app-container" style="margin-top: 100px;">
+
+    <section class="app-container">
         <p>Tải ứng dụng IVY mmoda</p>
         <div class="app-google">
             <img src="https://pubcdn.ivymoda.com/ivy2/images/appstore.png">
@@ -281,7 +312,6 @@
             ©IVYmoda All rights reserved
         </div>
     </footer>
-
 </body>
 
 </html>

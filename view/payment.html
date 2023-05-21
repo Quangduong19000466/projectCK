@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart | IVY moda</title>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-
+    <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/cart.css">
     <link rel="stylesheet" href="/css/category.css">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/delivery.css">
+    <link rel="stylesheet" href="/css/payment.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
 
 <body>
     <header style="z-index: 1;">
-        <div class="logo">
-            <img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png">
-        </div>
+        <a href="index.html">
+            <a href="index.html">
+                <img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png" alt="">
+            </a>
+        </a>
         <div class="menu">
             <li><a href="" class="a1">NỮ</a>
                 <ul class="sub-menu">
@@ -147,103 +152,83 @@
     </header>
 
 
-
-    <section class="cart">
+    <section class="payment">
         <div class="container">
             <div class="cart-top-wrap">
                 <div class="cart-top">
-                    <div class="cart-top-cart cart-top-item"><ion-icon name="cart-outline" class=""></ion-icon></div>
-                    <div class="cart-top-address cart-top-item"><ion-icon name="map-outline" class=""></ion-icon></div>
+                    <div class="cart-top-cart cart-top-item" style="border:1px solid #dddddd;"><ion-icon
+                            style="color: #a5a0a0;" name="cart-outline" class=""></ion-icon></div>
+                    <div class="cart-top-address cart-top-item" style="border:1px solid #dddddd;"><ion-icon
+                            name="map-outline" class="" style="color: #a5a0a0;"></ion-icon></div>
                     <div class="cart-top-payment cart-top-item"><ion-icon name="cash-outline" class=""></ion-icon></div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="cart-content row">
-                <div class="cart-content-left">
-                    <table>
-                        <tr style="">
-                            <th>Sản Phẩm</th>
-                            <th>Tên sản phẩm</th>
-                            <th>Màu</th>
-                            <th>Size</th>
-                            <th>SL</th>
-                            <th>Thành tiền</th>
-                            <th>Xoá</th>
-                        </tr>
-                        <tr>
-                            <td><img
-                                    src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/05/12/140dd4bbdba759c36538b439fe2c7922.jpg">
-                            </td>
-                            <td>
-                                <p style="font-size: 15px;">Sơ mi họa tiết ren</p>
-                            </td>
-                            <td>
-                                <img src="https://pubcdn.ivymoda.com/ivy2/images/color/050.png"
-                                    style="border-radius: 50%;">
-                            </td>
-                            <td>
-                                <b>L</b>
-                            </td>
-                            <td>
-                                <input type="number" value="1" min="1">
-                            </td>
-                            <td>
-                                <p>1.090.000đ</p>
-                            </td>
-                            <td>
-                                <span>X</span>
-                            </td>
-                        </tr>
+            <div class="payment-content row">
+                <div class="payment-content-left-l">
+                    <div class="payment-content-left" style="">
+                        <div class="payment-content-left-method-delivery">
+                            <p style="font-weight: bold;">Phương thức giao hàng</p>
+                            <div class="payment-content-left-method-delivery-item">
+                                <input type="radio" checked>
+                                <label>Giao hàng chuyển phát nhanh</label>
+                            </div>
+                        </div>
+                        <div class="payment-content-left-method-payment">
+                            <p style="font-weight: bold;">Phương thức giao hàng</p>
+                            <p>Mọi giao dịch đều được bảo mật mã hoá. Thông tin thẻ tín dụng sẽ không bao giờ được lưu
+                                lại.
+                            </p>
+                            <div class="payment-content-left-method-delivery-item">
+                                <input type="radio" name="payment">
+                                <label>Thanh toán bằng thẻ tín dụng (Onepay)</label>
+                            </div>
+                            <div class="payment-content-left-method-delivery-itm-img">
+                                <img src="https://pubcdn.ivymoda.com/ivy2/images/1.png" alt="">
+                            </div>
+                            <div class="payment-content-left-method-delivery-item">
+                                <input checked type="radio" name="payment">
+                                <label>Thanh toán bằng thẻ ATM (Onepay)</label>
+                                <p>Hỗ trợ thanh toán online hơn 38 ngân hàng phổ biến Việt Nam.</p>
+                            </div>
+                            <div class="payment-content-left-method-delivery-item">
+                                <input type="radio" name="payment">
+                                <label>Thanh toán momo</label>
+                            </div>
+                            <div class="payment-content-left-method-delivery-item">
+                                <input type="radio" name="payment">
+                                <label>Thu tiền tận nơi</label>
+                            </div>
 
-                    </table>
-
+                        </div>
+                    </div>
                 </div>
-                <div class="cart-content-right">
-                    <div class="cart-content-right-l">
-                        <table>
-                            <tr>
-                                <th colspan="2">Tổng tiền giỏ hàng</th>
-                            </tr>
-                            <tr>
-                                <td>Tổng sản phẩm</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Tổng tiền hàng</p>
-                                </td>
-                                <td>
-                                    <p>
-                                    <p>1.090.000đ</p>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Tạm tính</td>
-                                <td>
-                                    <p style="color: black; font-weight: bold;">1.090.000đ</p>
-                                </td>
-                            </tr>
-                        </table>
-
-                        <div class="cart-content-right-text">
-                            <p>Đơn hàng của bạn được Miễn phí ship</p>
-                        </div>
-                        <div class="cart-content-right-button">
-                            <a href="index.html"><button>TIẾP TỤC MUA SẮM</button></a>
-                            <a href="delivery.html"><button>THANH TOÁN</button></a>
-
-                        </div>
-                        <div class="cart-content-right-dangnhap">
-                            <p>Tài khoản IVY</p>
-                            <p>Hãy <a href=""><b>Đăng Nhập</b></a> tài khoản của bạn để được tích điểm</p>
-                        </div>
-
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" name="" id="" placeholder="Mã giảm giá / Quà tặng">
+                        <button><ion-icon name="checkmark-outline"></ion-icon></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" name="" id="" placeholder="Mã cộng tác viên">
+                        <button><ion-icon name="checkmark-outline"></ion-icon></button>
+                    </div>
+                    <div class="payment-content-right-nnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">D345</option>
+                            <option value="">A345</option>
+                            <option value="">R345</option>
+                            <option value="">I345</option>
+                        </select>
                     </div>
                 </div>
             </div>
+            <div class="payment-content-right-payment">
+                <a href=""><button>TIẾP TỤC THANH TOÁN</button></a>
+            </div>
         </div>
+
     </section>
 
 
@@ -281,7 +266,6 @@
             ©IVYmoda All rights reserved
         </div>
     </footer>
-
 </body>
 
 </html>

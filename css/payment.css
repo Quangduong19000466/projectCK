@@ -1,0 +1,93 @@
+.payment {
+    padding: 100px 0;
+}
+
+.cart-top-payment {
+    border: 1px solid #0db7EA;
+}
+
+.cart-top-payment ion-icon {
+    color: #0db7EA;
+}
+
+.payment-content-left-l {
+    width: 60%;
+}
+
+.payment-content-left {
+    margin-left: 100px;
+}
+
+.payment-content-right {
+    width: 40%;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+}
+
+.payment-content-left p,
+label {
+    font-size: 13px;
+    font-family: var(--main-text-font);
+
+}
+
+.payment-content-right-button {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px dashed #dddddd;
+
+}
+
+.payment-content-right-button input {
+    height: 30px;
+    width: 200px;
+    margin-right: 100px;
+    padding-left: 12px;
+}
+
+.payment-content-right-button button {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-content-right-button button ion-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.payment-content-right-nnv {
+    margin-top: 20px;
+
+}
+
+.payment-content-right-nnv select {
+    height: 30px;
+    width: 67%;
+    color: #75758A;
+    padding-left: 12px;
+}
+
+.payment-content-right-payment {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.payment-content-right-payment button {
+    height: 35px;
+    padding: 0 20px;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+
+}
+
+.payment-content-right-payment button:hover {
+    background-color: black;
+    color: #fff;
+}

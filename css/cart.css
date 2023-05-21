@@ -1,0 +1,161 @@
+.cart {
+    padding: 100px 0;
+
+}
+
+.cart-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cart-top {
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+
+.cart-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cart-top ion-icon {
+    width: 30px;
+    height: 30px;
+    color: #a5a0a0;
+}
+
+.cart-top-cart {
+    border: 1px solid #0db7EA;
+}
+
+.cart-top-cart ion-icon {
+    color: #0db7EA;
+}
+
+.cart-content-left {
+    flex: 2;
+    padding-right: 12px;
+    width: 70%;
+
+}
+
+.cart-content-right {
+    width: 30%;
+}
+
+.cart-content-left table {
+    width: 100%;
+    text-align: center;
+}
+
+.cart-content-left table th {
+    padding-bottom: 30px;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-left table p {
+    font-family: var(--main-text-font);
+    font-size: 15px;
+    color: #333;
+}
+
+.cart-content-left input {
+    width: 30px;
+}
+
+.cart-content-left table tr th {
+    font-size: 13px;
+}
+
+.cart-content-left table span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.cart-content-left table td {
+    padding: 20px 0;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-left td:first-child img {
+    width: 130px;
+}
+
+.cart-content-left td:nth-child(2) {
+    max-width: 130px;
+
+}
+
+.cart-content-left td:nth-child(3) img {}
+
+
+.cart-content-right {
+    background-color: #ebe1e1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.cart-content-right-l {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cart-content-right-l table tr td {
+    padding: 6px 56px;
+}
+
+
+
+.cart-content-right-text {
+    padding: 6px 0;
+    text-align: center;
+
+}
+
+.cart-content-right tr td:last-child {
+    text-align: right;
+}
+
+.cart-content-right-button {
+    padding: 6px 0;
+}
+
+.cart-content-right-button button {
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    font-family: var(--main-text-font);
+}
+
+.cart-content-right-button button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cart-content-right-dangnhap p {
+    padding: 6px 0;
+}
